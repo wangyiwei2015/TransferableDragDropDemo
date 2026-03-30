@@ -10,9 +10,22 @@
 		B3B94B8E2F52FFA10078C5C1 /* cardbooktest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardbooktest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B3D6D3142F7A48A0000346B0 /* Exceptions for "cardbooktest" folder in "cardbooktest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B3B94B8D2F52FFA10078C5C1 /* cardbooktest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B3B94B902F52FFA10078C5C1 /* cardbooktest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B3D6D3142F7A48A0000346B0 /* Exceptions for "cardbooktest" folder in "cardbooktest" target */,
+			);
 			path = cardbooktest;
 			sourceTree = "<group>";
 		};
@@ -258,7 +271,9 @@
 				DEVELOPMENT_TEAM = JS2ME2LTBF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cardbooktest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CardBookDemo;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,7 +311,9 @@
 				DEVELOPMENT_TEAM = JS2ME2LTBF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cardbooktest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CardBookDemo;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
